@@ -1,3 +1,6 @@
+**code variations with unobfuscated code are located in the brach-code directory**
+**trial and error playing with the different branches can discover working js ****
+
 **English | [简体中文](Readme_zh.md)**
 
 <h1 align="center"><a href="" target="_blank" rel="noopener noreferrer"><img width="250" src="https://cdnbye.oss-cn-beijing.aliyuncs.com/pic/cdnbye.png" alt="cdnbye logo"></a></h1>
@@ -34,7 +37,7 @@ Simply replace the hls.js script tag like:
  ```javascript
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 ```
-with 
+with
  ```javascript
 <script src="https://cdn.jsdelivr.net/npm/cdnbye@latest"></script>
 ```
@@ -45,14 +48,14 @@ See [demos](https://github.com/cdnbye/hlsjs-p2p-engine#player-integration).
 ## Browser Support
 WebRTC has already been incorporated into the HTML5 standard and it is broadly deployed in modern browsers. The compatibility of CDNBye depends on the browser support of WebRTC and Hls.js. Please note that iOS Safari "Mobile" does not support the MediaSource API.
 
- Compatibility|Chrome | Firefox | macOS Safari| Android Wechat/QQ | Opera | Edge | IE | iOS Safari | 
+ Compatibility|Chrome | Firefox | macOS Safari| Android Wechat/QQ | Opera | Edge | IE | iOS Safari |
 :-: | :-: | :-: | :-: | :-: | :-: | :-:| :-:| :-:
 WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ | ✔ |
 Hls.js | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ |
 CDNBye | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ | ❌ |
 
 ## Include
-Include the pre-built script of latest version bundled with hls.js(recommended): 
+Include the pre-built script of latest version bundled with hls.js(recommended):
 ```javascript
 <script src="https://cdn.jsdelivr.net/npm/cdnbye@latest"></script>
 ```
@@ -118,10 +121,3 @@ We have collected some [frequently asked questions](https://docs.cdnbye.com/#/en
 
 ## Contact Us
 Email: service@cdnbye.com
-
-
-
-
-
-
-
